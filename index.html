@@ -5,16 +5,187 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyEduhive</title>
+    <title>MyEduHive</title>
+    <!-- css cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="d-flex flex-column align-items-center">
     <header>
+        <div class="container shadow-sm mb-5 bg-body rounded">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-semibold fs-2" href="#">My Edu Hive</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav mx-auto">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#"> Teach on EduHive</a>
+                            <div class="dropdown">
+                                <button class="dropdown-toggle btn" type="menu" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Catagories
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">STEM</a></li>
+                                    <li><a class="dropdown-item" href="#">Business</a></li>
+                                    <li><a class="dropdown-item" href="#">Web Development</a></li>
+                                    <li><a class="dropdown-item" href="#">Software Engineering</a></li>
+                                    <li><a class="dropdown-item" href="#">Ethical Hacking</a></li>
+                                    <li><a class="dropdown-item" href="#">Dev Ops</a></li>
+                                    <li><a class="dropdown-item" href="#">Cyber Security</a></li>
+                                    <li><a class="dropdown-item" href="#">Nft</a></li>
+                                    <li><a class="dropdown-item" href="#">Web 3.0</a></li>
+                                </ul>
+                            </div>
 
+                        </div>
+                        <button type="button" class="btn btn-outline-info fw-bold">
+                            Register
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id="carouselExampleCaptions mb-5" class=" container carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/cover/img-1.jpg" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption d-flex flex-column">
+                        <h5>No more anxiety</h5>
+                        <p>Are you anxious about your future? Well guess what... no more anxiety. We EduHive are here
+                            for you.</p>
+                        <div> <button type="button" class="btn btn-primary fw-bold">Get Started</button></div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="images/cover/img-2.jpg" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                        <div> <button type="button" class="btn btn-primary fw-bold">Get Started</button></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cover/img-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                        <div> <button type="button" class="btn btn-primary fw-bold">Get Started</button></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cover/img-4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                        <div> <button type="button" class="btn btn-primary fw-bold">Get Started</button></div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </header>
     <main>
+        <section class="container mt-5">
+            <div class="card text-center border-0 mb-5">
+                <div class="card-body">
+                    <h1 class="card-title">Special title treatment</h1>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+            </div>
 
+        </section>
+        <section class="container mt-5 p-5">
+            <div class="row row-cols-sm-1 row-cols-lg-1 row-cols-lg-2 g-4">
+                <div class="card col border d-flex flex-lg-row flex-md-row  flex-sm-col p-0 rounded-3">
+                    <img src="images/course/course-1.png" class="card-img-top" alt="...">
+                    <div class="card-body p-5">
+                        <h4 class="text-dark">Complete UX Fundamentals Course</h4>
+                        <p class="card-text">Understand User Experience Design ( UX ) to begin designing web and mobile
+                            apps to keep your users engaged and happy.</p>
+                        <p class="text-primary fw-bold">price:20$</p>
+                    </div>
+                </div>
+                <div class="card col border d-flex flex-lg-row flex-md-row  flex-sm-col p-0 rounded-3">
+                    <img src="images/course/course-2.png" class="card-img-top" alt="...">
+                    <div class="card-body p-5">
+                        <h4>JavaScript Basics for Beginners</h4>
+                        <p class="card-text">The modern JavaScript course for everyone! Master JavaScript with projects,
+                            challenges and theory. Many courses in one!</p>
+                        <p class="text-primary fw-bold">price:30$</p>
+                    </div>
+                </div>
+                <div class="card col border d-flex flex-lg-row flex-md-row  flex-sm-col p-0 rounded-3">
+                    <img src="images/course/course-3.png" class="card-img-top" alt="...">
+                    <div class="card-body p-5">
+                        <h4>The Complete Web Development</h4>
+                        <p class="card-text">Learn Web Development by building 25 websites using HTML,
+                            CSS, Javascript & more!</p>
+                        <p class="text-primary fw-bold">price:30$</p>
+                    </div>
+                </div>
+                <div class="card col border d-flex flex-lg-row flex-md-row  flex-sm-col p-0 rounded-3">
+                    <img src="images/course/course-4.png" class="card-img-top" alt="...">
+                    <div class="card-body p-5">
+                        <h4>Neural networks for sentiment and stock price prediction</h4>
+                        <p class="card-text">How to predict stock prices with neural networks and sentiment with neural
+                            networks.</p>
+                        <p class="text-primary fw-bold">price:29.98$</p>
+                    </div>
+                </div>
+                <div class="card col border d-flex flex-lg-row flex-md-row  flex-sm-col p-0 rounded-3">
+                    <img src="images/course/course-5.png" class="card-img-top" alt="...">
+                    <div class="card-body p-5">
+                        <h4>Complete guide to GoPro handling</h4>
+                        <p class="card-text">Photo, Video, Composition, Storytelling and Editing</p>
+                        <p class="text-primary fw-bold">price:34.99</p>
+                    </div>
+                </div>
+                <div class="card col border d-flex flex-lg-row flex-md-row  flex-sm-col p-0 rounded-3">
+                    <img src="images/course/course-6.png" class="card-img-top" alt="...">
+                    <div class="card-body p-5">
+                        <h4>After Effects Motion Graphics Beast</h4>
+                        <p class="card-text">Master Animation in Adobe After Effects</p>
+                        <p class="text-primary fw-bold">price:39.99</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
+
+
+
+
+    <!-- js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
