@@ -1,0 +1,13 @@
+.box {
+    position: relative;
+}
+
+.box-obj {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bluish {
+    background-color: #F4FAFD;
+}
